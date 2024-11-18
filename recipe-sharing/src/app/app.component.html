@@ -1,0 +1,23 @@
+<div>
+
+<div class="min-h-[90vh]">
+<app-navbar></app-navbar>
+
+@if (user) {
+
+  <app-home-page></app-home-page>
+}
+@else {
+
+  <app-auth />
+}
+
+</div>
+
+
+
+<div>
+  <app-footer></app-footer>
+</div>
+
+</div>
